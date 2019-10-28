@@ -1,0 +1,12 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"	xmlns:gs="http://localhost/movies"> <soapenv:Header/>
+<soapenv:Body>
+      <gs:getMovieRequest>
+         <gs:name>The Boys</gs:name>
+      </gs:getMovieRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+<!--        Command to run test the server using curl-->
+<!--        curl - -header "content-type: text/xml" -d @soap.xml http://localhost/ws-->
+
+	
